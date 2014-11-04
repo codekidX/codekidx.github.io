@@ -1,8 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head><head>
+<html lang="en">
+<head>
+    <!--Custom css-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="import" href="bower_components/paper-elements/paper-elements.html">
+    <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import" href="bower_components/core-icons/core-icons.html">
+    <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="bower_components/core-media-query/core-media-query.html">
+    <link rel="import" href="bower_components/paper-dialog/paper-dialog-transition.html">
+    <link rel="import" href="bower_components/core-transition/core-transition.html"> 
+<head>
 <body>
-
-Hello
+<core-toolbar class="tall" id="toolbar">
+    <p>Ashish Shekar (codekidX)</p>
+</core-toolbar>
+    <paper-fab icon="menu" id="navicon" onclick="document.querySelector('#navigation').toggle()"></paper-fab>
+    <paper-dialog id="navigation" transition="paper-dialog-transition-bottom">
+    <p class="contact">Contact</p>
+    <img src="images/github.png" height="50px"></img>
+    <img src="images/google_plus.png" height="52px"></img>
+    <img src="images/41Z30iTlpcL.png" height="52px"></img>
+    </paper-dialog>
+    <div id="panel1" style="background: #d8d8d8">
+    
+        <p class="heading">About Me</p>
+    
+    </div>
 </body>
 </html>
