@@ -86,6 +86,22 @@
 
 }
 
+#frost-pl {
+
+    margin-left: 100px;
+
+}
+
+#frost-pl > a {
+
+    color: #752BFF;
+    text-decoration: none;
+    font-family: SegoeL;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
 .face {
 
     width: 48px;
@@ -247,6 +263,7 @@
     margin-left: 188px;
      width : 70%;
     margin-top: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -255,6 +272,17 @@
     background-color: #ececec;
     position: relative;
     margin-top: 140px;
+    
+
+}
+
+#pl {
+
+    color: black;
+    font-family: SegoeL;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
     
 
 }
