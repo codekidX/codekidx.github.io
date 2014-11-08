@@ -14,3 +14,9 @@
     "tests"
   ]
 }
+
+{
+  "undef": true,
+  "unused": true,
+  "predef": [ "angular.module" ]
+}
