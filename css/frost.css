@@ -74,7 +74,7 @@
 #cme {
 
     width: 650px;
-    height: 300px;
+    height: 400px;
     margin-left: -100px;
 
 }
@@ -142,12 +142,18 @@
     background: #ffffff;
     margin-left: 188px;
      width : 70%;
-    margin-top: 200px;
+    margin-top: 250px;
     margin-bottom: 30px;
 
 }
 
 .cards > h4 {
+
+    font-family: SegoeL;
+
+}
+
+.cards > h2 {
 
     font-family: SegoeL;
 
@@ -166,6 +172,14 @@
 #archive {
 
     background: #e24848;
+    color: white;
+    font-family: SegoeL;
+
+}
+
+#git {
+
+    background: #49af1c;
     color: white;
     font-family: SegoeL;
 
@@ -190,3 +204,7 @@
     
 
 }
+
+.custom /deep/ .focused-underline {
+      background-color: #48c4e2;
+    }
