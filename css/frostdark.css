@@ -20,7 +20,7 @@
 
 #toolbar p {
 
-    color: white;
+    color: #3b3b3b;
     font-family: SegoeL;
     font-size: 40px;
     margin-left: 100px;
@@ -114,7 +114,7 @@
 
 .first-cards {
 
-    background: #ffffff;
+    background: #464646;
     position: absolute;
     left: 180px;
      width : 945px;
@@ -127,6 +127,7 @@
 
     font-family: SegoeL;
     font-weight: 500;
+    color: white;
 
 }
 
@@ -134,12 +135,13 @@
 
     font-family: SegoeL;
     font-weight: bold;
+    color: white;
 
 }
 
 .cards {
 
-    background: #ffffff;
+    background: #464646;
     margin-left: 188px;
      width : 70%;
     margin-top: 250px;
@@ -150,12 +152,14 @@
 .cards > h4 {
 
     font-family: SegoeL;
+    color: white;
 
 }
 
 .cards > h2 {
 
     font-family: SegoeL;
+    color: white;
 
 }
 
@@ -185,22 +189,22 @@
 
 }
 
-#bodies {
-
-    background-color: #ececec;
-    position: relative;
-    margin-top: 140px;
-    
-
-}
-
-#dtheme {
+#ltheme {
 
     background: white;
     position: absolute;
     top: 20px;
     right: 50px;
     z-index: 10;
+
+}
+
+#bodies {
+
+    background-color: #3b3b3b;
+    position: relative;
+    margin-top: 140px;
+    
 
 }
 
